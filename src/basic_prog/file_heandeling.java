@@ -9,7 +9,6 @@ public class file_heandeling {
 		File tmpDir = new File(".//src//main//java//Testpack//stringtest.java");
 	    boolean exists = tmpDir.exists();
 	    System.out.println("\n"+exists);
-
 	}
 
 }

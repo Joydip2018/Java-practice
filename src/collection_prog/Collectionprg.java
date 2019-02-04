@@ -3,6 +3,29 @@ package collection_prog;
 import java.util.*;  
 public class Collectionprg
 {  
+	public void Collectionexam()
+	{
+		int a[]={1,3,4,2,5,7,10,6};
+		ArrayList<Integer> al=new ArrayList<Integer>();
+		for (int i = 0; i < a.length; i++)
+		{
+			al.add(new Integer(a[i]));
+		} 
+		/*ArrayList<Integer> al2=new ArrayList<Integer>();
+		al2.add(1);
+		al2.add(9);
+		al2.addAll(1, al);*/
+		
+		System.out.println(al.get(3));
+		
+		/*Iterator<Integer> itr=al.iterator();  
+		while(itr.hasNext())
+		{  
+			System.out.println(String.valueOf(itr.next()));  
+		}*/
+		//System.out.println(al.get(a.length-2)); 
+	}
+	
 	public void intsort()
 	{
 		int a[]={1,3,4,2,5,7,10,6};
@@ -72,7 +95,7 @@ public class Collectionprg
 	public static void main(String args[])
 	{  
 		Collectionprg C =new Collectionprg();
-		C.intsort();
+		C.Collectionexam();
 		//C.stringsort();
 	}  
 }  

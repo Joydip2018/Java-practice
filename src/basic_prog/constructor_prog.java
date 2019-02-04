@@ -24,5 +24,4 @@ public class constructor_prog {
 		//constructor_prog pr=new constructor_prog(1);
 		pr.chk();
 	}
-
 }

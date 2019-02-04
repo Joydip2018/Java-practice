@@ -187,7 +187,7 @@ public class pattern_prog
 	
 	public static void main(String[] args) 
 	{
-		pattern8();
+		pattern6();
 	}
 
 }
