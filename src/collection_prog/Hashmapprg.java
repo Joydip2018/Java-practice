@@ -120,6 +120,6 @@ public class Hashmapprg
 	public static void main(String []args)
 	{
 		Hashmapprg HPP=new Hashmapprg();
-		HPP.mapexample1();
+		HPP.Readhashmap();
 	}
 }

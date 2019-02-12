@@ -92,10 +92,25 @@ public class Collectionprg
 		HashSet<Object> HS=new  HashSet<Object>(al);
 		System.out.println(HS); 	
 	}
+	
+	public void removeduplicatechar1()
+	{
+		String s="asasdasdes";
+		char []z=s.toCharArray();
+		HashSet<Character> HS=new  HashSet<Character>();
+		for (char arr:z)
+		{
+			HS.add(arr);
+		}
+		for(char arr1:HS)
+		{
+		System.out.print(arr1); 	
+		}
+	}
 	public static void main(String args[])
 	{  
 		Collectionprg C =new Collectionprg();
-		C.Collectionexam();
+		C.removeduplicatechar1();
 		//C.stringsort();
 	}  
 }  
